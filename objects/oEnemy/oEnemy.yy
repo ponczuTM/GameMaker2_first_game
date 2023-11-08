@@ -4,8 +4,8 @@
   "name": "oEnemy",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -30,12 +30,14 @@
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"vsp","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"grv","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0.3","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"walksp","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"3","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"walksp","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"5","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"hsp","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"walksp","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"hp","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"4","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"hp","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"3","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"flash","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"hitfrom","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"size","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"down","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"True","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"grounded","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
   ],
   "solid": false,
   "spriteId": {
@@ -43,8 +45,8 @@
     "path": "sprites/sEnemy/sEnemy.yy",
   },
   "spriteMaskId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
+    "name": "sEnemy",
+    "path": "sprites/sEnemy/sEnemy.yy",
   },
   "visible": true,
 }

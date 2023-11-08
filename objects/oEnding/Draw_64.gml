@@ -1,0 +1,10 @@
+draw_set_font(fMenu);
+draw_set_color(c_white);
+var screen_center_x = display_get_width() / 4+60;
+var screen_top_y = 50;
+var text_width = string_width(text);
+var text_height = string_height(text);
+var text_x = screen_center_x - (text_width / 2);
+draw_text(text_x, screen_top_y, text);
+draw_set_font(fMenu);
+draw_set_color(c_white);

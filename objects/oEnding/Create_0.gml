@@ -1,0 +1,19 @@
+endtext[0]="to";
+endtext[1]="jest";
+endtext[2]="text";
+endtext[3]="ktory";
+endtext[4]="bede";
+endtext[5]="mogl";
+endtext[6]="sobie";
+endtext[7]="uzupelnic";
+endtext[8]="jako";
+endtext[9]="zakonczenie";
+endtext[10]="gey";
+endtext[11]="gry* :)";
+
+spd=0.5;
+speed=0.5;
+letters=0;
+currentline=0;
+length = string_length(endtext[currentline]);
+text="";

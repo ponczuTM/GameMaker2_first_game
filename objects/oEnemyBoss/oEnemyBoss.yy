@@ -6,7 +6,7 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"propertyId":{"name":"size","path":"objects/oEnemy/oEnemy.yy",},"value":"4",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"propertyId":{"name":"hp","path":"objects/oEnemy/oEnemy.yy",},"value":"100",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"propertyId":{"name":"hp","path":"objects/oEnemy/oEnemy.yy",},"value":"75",},
   ],
   "parent": {
     "name": "Objects",

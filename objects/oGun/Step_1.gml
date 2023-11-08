@@ -4,14 +4,14 @@ image_angle = point_direction(x,y,mouse_x,mouse_y);
 firingdelay = firingdelay - 1;
 recoil = max(0, recoil-1);
 if ((mouse_check_button(mb_left)) || gamepad_button_check(0,gp_shoulderrb)) && (firingdelay <0){
-	firingdelay = 5;
-	recoil = 4;
+	firingdelay = 0;
+	recoil = 3;
 	ScreenShake(2,2);
 	audio_sound_pitch(snShoot,choose(0.8,0.9,1.0,1.1,1.2));
 	audio_play_sound(snShoot,5,false);
 	with (instance_create_layer(x,y,"Bullets",oBullet)){
-		speed=20;
-		direction = other.image_angle + random_range(-4,4);
+		speed=25;
+		direction = other.image_angle + random_range(-0,0);
 		image_angle = direction;
 	}
 }

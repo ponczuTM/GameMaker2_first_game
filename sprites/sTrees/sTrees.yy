@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sTrees",
-  "bbox_bottom": 479,
+  "bbox_bottom": 606,
   "bbox_left": 0,
-  "bbox_right": 639,
-  "bbox_top": 38,
+  "bbox_right": 1139,
+  "bbox_top": 100,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"86668e9a-6789-4529-a486-a26d31bf19f9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f1570db5-5b0e-4675-8125-326a881833fc",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 500,
+  "height": 607,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4c3ce54c-2b05-42c0-93de-74963a933a95","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3c6648e3-c493-4a3e-9648-0428bc55c063","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"86668e9a-6789-4529-a486-a26d31bf19f9","path":"sprites/sTrees/sTrees.yy",},},},"Disabled":false,"id":"8a1c7273-28b5-4db9-a0ef-3d261b01926f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f1570db5-5b0e-4675-8125-326a881833fc","path":"sprites/sTrees/sTrees.yy",},},},"Disabled":false,"id":"e205f37a-dd3f-456f-bb00-864ed099dc20","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 640,
+  "width": 1140,
 }

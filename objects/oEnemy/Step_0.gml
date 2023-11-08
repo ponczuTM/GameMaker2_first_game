@@ -1,17 +1,10 @@
-/*
-key_left = keyboard_check(ord("A")) ||  keyboard_check(vk_left);
-key_right = keyboard_check(ord("D")) ||  keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_space);
 
-var move = key_right - key_left;
-
-hsp = move * walksp;
-*/
 vsp = vsp + grv;
-/*
-if(place_meeting(x,y+1,oWall)){
-	vsp = -9;	//-7
-}*/
+
+if(grounded) && (down) && (!place_meeting(x+hsp, y+1,oWall)){
+	hsp = -hsp;	
+}
+
 
 //kolizja LP
 if (place_meeting(x+hsp,y,oWall)){
@@ -38,6 +31,7 @@ y = y + vsp;
 //animacja
 
 if(!place_meeting(x,y+1,oWall)){
+	grounded = false;
 	sprite_index = sEnemyA;
 	image_speed = 0;
 	if(sign(vsp)>0){
@@ -46,6 +40,7 @@ if(!place_meeting(x,y+1,oWall)){
 		image_index = 0;	
 	}
 } else {
+	grounded = true;
 	image_speed = 1;
 	if(hsp == 0){
 		sprite_index = sEnemy;

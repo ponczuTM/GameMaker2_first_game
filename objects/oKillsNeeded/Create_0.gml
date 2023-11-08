@@ -1,0 +1,1 @@
+global.kills = kills_needed;
